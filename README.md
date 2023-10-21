@@ -1,18 +1,27 @@
-## Getting Started
+# Overview
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+In my attemt to become better at using the java programming language, I decided to build a finance tracker that runs on pc. 
+The purpose of this application is to calculate the amount of profit you earn per hour of work, after calculating expenses, hours worked, salary, and taxes. 
 
-## Folder Structure
+My reason for learning the Java language has been to ease my way into phone application development. As such this is the first step in a learning journey I am taking.
 
-The workspace contains two folders by default, where:
+[Software Demo Video](http://youtube.link.goes.here)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Development Environment
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+I developed this project using the Java language. I used scene builder to create the user interface.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Useful Websites
 
-## Dependency Management
+{Make a list of websites that you found helpful in this project}
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- [Youtube](https://www.youtube.com/watch?v=AubJaosfI-0&ab_channel=BoostMyTool)
+- [Youtube](https://www.youtube.com/watch?v=hwCbXOM4_Qc&ab_channel=BroCode)
+
+# Future Work
+
+I likely will not be working on this project in the future, that being said it could use some improvements.
+
+- I could make the app change dynamically, so that the text becomes bigger when the window changes sizes, as well as other modifications.
+- I could made different smaller applications within a larger application so that the finance tracker is more applicable. Another useful app would be to come up with how much a mortgage is going to cost you.
+- I would love to find a way to format the data so that you can instantly make relevant pie charts within my excel documents.

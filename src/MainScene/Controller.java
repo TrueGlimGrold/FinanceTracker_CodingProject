@@ -29,8 +29,7 @@ public class Controller implements Initializable{
     private Button ApplyBtn;
 
     @FXML 
-    private Button SaveBtn; // ! NEW
-
+    private Button SaveBtn;
     @FXML
     private Label ErrorLb;
 
@@ -71,7 +70,7 @@ public class Controller implements Initializable{
     private TextField tfIncome;
 
     @FXML 
-    private TextField tfFileName; // ! NEW
+    private TextField tfFileName; 
 
     @FXML
     private ComboBox<String> LocationComboBox;
