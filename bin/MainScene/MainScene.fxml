@@ -39,7 +39,7 @@
       <Label layoutX="29.0" layoutY="306.0" prefHeight="17.0" prefWidth="87.0" text="Hours worked:" />
       <TextField fx:id="tfHrWorked" layoutX="109.0" layoutY="302.0" prefHeight="25.0" prefWidth="149.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5efff" height="47.0" layoutX="27.0" layoutY="339.0" stroke="BLACK" strokeType="INSIDE" width="351.0" />
-      <Label fx:id="ErrorLb" layoutX="86.0" layoutY="353.0" prefHeight="17.0" prefWidth="200.0" text="--- Error messages appear here ---" textFill="#ff1818" />
+      <Label fx:id="ErrorLb" alignment="TOP_CENTER" layoutX="31.0" layoutY="353.0" prefHeight="17.0" prefWidth="343.0" text="--- Error messages appear here ---" textFill="#ff1818" />
       <Button fx:id="ApplyBtn" layoutX="264.0" layoutY="303.0" mnemonicParsing="false" onAction="#changesApplied" prefHeight="25.0" prefWidth="109.0" text="Apply" />
       <TextField fx:id="tfAmount" layoutX="76.0" layoutY="89.0" prefHeight="25.0" prefWidth="149.0" promptText="\$$$" />
       <Button fx:id="AddBtn" layoutX="232.0" layoutY="90.0" mnemonicParsing="false" onAction="#expenseAdded" prefHeight="25.0" prefWidth="136.0" text="Add" />
@@ -57,6 +57,6 @@
             </AnchorPane>
          </content>
       </ScrollPane>
-      <Button fx:id="ClearBtn" mnemonicParsing="false" onAction="#clearText" prefHeight="25.0" prefWidth="80.0" text="Clear" AnchorPane.leftAnchor="290.0" AnchorPane.topAnchor="225.0" />
+      <Button fx:id="ClearBtn" mnemonicParsing="false" onAction="#clearText" prefHeight="25.0" prefWidth="80.0" text="Clear" AnchorPane.leftAnchor="275.0" AnchorPane.topAnchor="215.0" />
    </children>
 </AnchorPane>
