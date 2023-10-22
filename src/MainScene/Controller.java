@@ -453,7 +453,7 @@ public class Controller implements Initializable{
         if (costString.equals("0.00")) {
             
         } else {
-            if (outputString == "")
+            if (outputString == "" || outputString == "Name      Total Cost")
             {   
                 outputString = expenseName + "      " + costString + "$";
             } else {
